@@ -720,10 +720,12 @@ footer .tagline{font-family:var(--serif);font-style:italic;font-size:1.35rem;
   .nav-links a{font-size:.95rem}
   .nav-burger{display:flex}
   .nav-cta{display:none}
-  .stage-pin{grid-template-columns:1fr;grid-template-rows:50svh 1fr;gap:0;padding-top:60px}
+  .stage-pin{grid-template-columns:1fr;grid-template-rows:48svh 1fr;gap:0;padding-top:78px}
   .stage-visual{height:100%;overflow:visible}
   /* o PNG tem ~45% de margem transparente: o dente visível ocupa quase toda a altura da área */
-  .tooth-stack{width:min(96vw,52svh)}
+  .tooth-stack{width:min(88vw,44svh)}
+  /* sombra curta e suave: a sombra preta difusa criava um halo cinza atrás do dente */
+  .tooth-stack img{filter:drop-shadow(0 22px 26px rgba(11,31,58,.16)) drop-shadow(0 0 24px rgba(200,163,77,.18))}
   .stage-visual .halo{width:80vw;height:80vw}
   .stage-ring{width:84vw;height:84vw}
   .stage-text{text-align:center}
